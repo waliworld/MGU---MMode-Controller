@@ -1,7 +1,7 @@
 # TBW M Setup (BETA)
 
 M1 / M2 from the iDrive 8 screen, for M cars whose steering wheel buttons are damaged. An app for the
-[MGU Store](https://github.com/robertnisipeanu/mgu-store) by TunedByWali / TBW Performance (Built by Wali LLC).
+[MGU Store](https://github.com/robertnisipeanu/mgu-store) by Waliworld.
 
 ![The page](docs/screen.png)
 
