@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "note": "EXAMPLE ONLY - method and hex are placeholders, not a real command. See README, Finding the command.",
+  "commands": {
+    "m1":  [ { "svc": "0xb51f", "inst": 1, "method": 1, "major": 1, "hex": "" } ],
+    "m2":  [ { "svc": "0xb51f", "inst": 1, "method": 1, "major": 1, "hex": "" } ],
+    "off": [ { "svc": "0xb51f", "inst": 1, "method": 1, "major": 1, "hex": "" } ]
+  }
+}

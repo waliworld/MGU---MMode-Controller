@@ -1,0 +1,15 @@
+{
+  "id": "tbw_mdrive",
+  "title": "M Setup",
+  "description": "M1 / M2 from the screen, for M cars whose steering wheel buttons are damaged. Shows the M setup the car reports and asks the car for M1, M2 or off through the TBW M Setup service. By TunedByWali / TBW Performance. Needs the tbw-mdrive-d tool and the GPU renderer (mgu-render).",
+  "id8": { "id": "tbw_mdrive" },
+  "version": "0.1.0",
+  "license": "MIT",
+  "vendor": "TBW Performance",
+  "loggingId": "TBWM",
+  "iconGlyph": "M",
+  "screens": [
+    { "name": "VIEW", "kind": "canvas", "title": "M Setup", "hmi": false, "bg": "#050506", "buttons": [] }
+  ],
+  "settings": []
+}

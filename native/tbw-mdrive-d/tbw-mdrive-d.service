@@ -1,0 +1,18 @@
+[Unit]
+Description=TBW M Setup: the M setup the car reports, and M1 / M2 on request (M Setup app)
+After=vsomeipd.service
+
+[Service]
+# root: the head unit's vsomeip policy lets uid 0 use the MDrive service. Data /var/opt/tbw-mdrive (profile.json,
+# root-only: it decides what is sent to the car; events.log); the app's control socket /run/tbw-mdrive/ctl.sock
+# (0666: apps run as their own uids; it takes no raw calls)
+RuntimeDirectory=tbw-mdrive
+RuntimeDirectoryMode=0755
+ExecStart=/usr/bin/node /var/opt/tbw-mdrive-d/current/mdrived.js
+# the car's system.conf has DefaultStandardOutput=null: the log would never reach the journal
+StandardOutput=journal
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
